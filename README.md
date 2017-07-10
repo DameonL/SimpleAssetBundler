@@ -1,5 +1,8 @@
-# PathsToAssetBundles
+# SimpleAssetBundler
 A simple editor script for Unity3D that creates AssetBundles with a hierarchy mirroring the folder they're in.
+
+# Installation:
+Just copy the entire SimpleAssetBundler folder into the Assets folder of your project. A subfolder of the Assets folder is also okay.
 
 # Usage:
 Once the script is installed, you can open the window by going to the "Assets/AssetBundles/Simple Asset Bundler" menu which should now be visible in your Unity3D editor. The bundler only has three settings:
