@@ -93,7 +93,7 @@ namespace SimpleAssetBundler
 				bundlePath = bundlePath.Remove(0, file.IndexOf(build.assetBundleName));
 				if (!string.IsNullOrEmpty(build.assetBundleVariant))
 				{
-					bundlePath = bundlePath.Remove(bundlePath.IndexOf(build.assetBundleVariant) - 1, build.assetBundleVariant.Length);
+					bundlePath = bundlePath.Remove(bundlePath.IndexOf(build.assetBundleVariant) - 1, build.assetBundleVariant.Length + 1);
 				}
 
 				AssetImporter importer = AssetImporter.GetAtPath(file);
